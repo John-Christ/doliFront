@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS produit;
+
+CREATE TABLE produit (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  nomProduit VARCHAR(250) NOT NULL,
+  description VARCHAR(250) NOT NULL,
+  prixUnitaire VARCHAR(250) DEFAULT NULL,
+  quantiteStock VARCHAR(250) DEFAULT NULL
+);
